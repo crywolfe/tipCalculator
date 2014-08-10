@@ -10,7 +10,6 @@ var amount = function(baseCost, rate){
 
 
 var calcTip = function(baseCost, amount) {
-  debugger;
   var total = (baseCost + amount(baseCost, taxRate) +  amount(baseCost, tipRate));
   return total.toFixed(2);
 }
