@@ -12,19 +12,19 @@
     </p>
     <p>
 
-      <script> document.write("The base cost of your food is $" + baseCost);
+      <script> document.write("The base cost of your food is $" + calculator.baseCost);
   </script>
     </p>
     <p>
-    <script> document.write("The tax on your food is $" + amount(baseCost, taxRate));
+    <script> document.write("The tax on your food is $" + calculator.amount(baseCost, taxRate));
 </script>
     </p>
     <p>
-      <script> document.write("The desired tip on your food is $"+ amount(baseCost,tipRate));
+      <script> document.write("The desired tip on your food is $"+ calculator.amount(baseCost,tipRate));
       </script>
     </p>
     <p>
-      <script> document.write("The total including tax and tip on your food is $" + calcTip(baseCost, amount));
+      <script> document.write("The total including tax and tip on your food is $" + calculator.calcTip(baseCost, amount));
       </script>
 
     </p>
